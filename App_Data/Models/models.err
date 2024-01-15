@@ -1,0 +1,7 @@
+Failed to build PureLive models.
+Cannot generate model for type 'AR2023' because it is an element type, but its parent type 'annualReport' is not.
+
+   at Umbraco.ModelsBuilder.Embedded.Building.Builder.Prepare() in D:\a\1\s\src\Umbraco.ModelsBuilder.Embedded\Building\Builder.cs:line 176
+   at Umbraco.ModelsBuilder.Embedded.PureLiveModelFactory.GenerateModelsCode(IList`1 typeModels) in D:\a\1\s\src\Umbraco.ModelsBuilder.Embedded\PureLiveModelFactory.cs:line 573
+   at Umbraco.ModelsBuilder.Embedded.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild) in D:\a\1\s\src\Umbraco.ModelsBuilder.Embedded\PureLiveModelFactory.cs:line 462
+   at Umbraco.ModelsBuilder.Embedded.PureLiveModelFactory.EnsureModels() in D:\a\1\s\src\Umbraco.ModelsBuilder.Embedded\PureLiveModelFactory.cs:line 294
